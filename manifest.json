@@ -1,0 +1,7 @@
+{
+  "name": "web3party",
+  "short_name": "web3party",
+  "description": "It&#39;s a DANG web3 PARTY",
+  "start_url": "/",
+  "display": "standalone"
+}

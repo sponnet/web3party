@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>web3party-app test</title>
+
+    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../../src/web3party-app/web3party-app.html">
+  </head>
+  <body>
+    <test-fixture id="basic">
+      <template>
+        <web3party-app></web3party-app>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('web3party-app', function() {
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'web3party-app');
+        });
+      });
+    </script>
+  </body>
+</html>
